@@ -31,3 +31,10 @@ Thumbs.db
 python/
 .tmp_*
 _acc/
+
+# 本地运维产物与含明文口令的 compose 覆盖文件（绝不入库）
+docker-compose.override.yml
+docker-compose.override.yml.bak*
+dashboard.html.bak
+backups/
+*.bak-*
